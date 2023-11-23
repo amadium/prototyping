@@ -1,0 +1,4 @@
+Running: xsim.dir/mcs_top_vanilla_behav/xsimk -simmode gui -wdb mcs_top_vanilla_behav.wdb -simrunnum 0 -socket 53341
+Design successfully loaded
+Design Loading Memory Usage: 37756 KB (Peak: 37756 KB)
+Design Loading CPU Usage: 30 ms

@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2754082849709097371  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 -L xil_defaultlib -L microblaze_v11_0_8 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_20 -L blk_mem_gen_v8_4_5 -L iomodule_v3_1_7 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mcs_top_vanilla_behav xil_defaultlib.mcs_top_vanilla xil_defaultlib.glbl" , 
+    buildDate : "Oct 19 2021" , 
+    buildTime : "02:56:52" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/mcs_top_vanilla_behav/xsimk\"   \"xsim.dir/mcs_top_vanilla_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/mcs_top_vanilla_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/mcs_top_vanilla_behav/obj/xsim_2.lnx64.o\" \"xsim.dir/mcs_top_vanilla_behav/obj/xsim_3.lnx64.o\" \"xsim.dir/mcs_top_vanilla_behav/obj/xsim_4.lnx64.o\" -L\"/media/aleo/data/Xilinx/Vivado/2021.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

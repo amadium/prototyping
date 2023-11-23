@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Nov 23 14:17:23 2023
+# Process ID: 18969
+# Current directory: /media/aleo/data/projects/prototyping/FPro/FPro.runs/impl_1
+# Command line: vivado -log mcs_top_vanilla.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mcs_top_vanilla.tcl -notrace
+# Log file: /media/aleo/data/projects/prototyping/FPro/FPro.runs/impl_1/mcs_top_vanilla.vdi
+# Journal file: /media/aleo/data/projects/prototyping/FPro/FPro.runs/impl_1/vivado.jou
+# Running On: aleo-desktop, OS: Linux, CPU Frequency: 3600.000 MHz, CPU Physical cores: 4, Host memory: 16445 MB
+#-----------------------------------------------------------
+source mcs_top_vanilla.tcl -notrace

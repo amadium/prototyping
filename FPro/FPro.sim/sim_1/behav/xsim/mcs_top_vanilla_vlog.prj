@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../FPro.srcs/sources_1/imports/bridge" \
+"../../../../FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_6/sim/bd_3914_lmb_bram_I_0.v" \
+"../../../../FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v" \
+"../../../../FPro.gen/sources_1/ip/cpu/sim/cpu.v" \
+
+sv xil_defaultlib  --include "../../../../FPro.srcs/sources_1/imports/bridge" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/uart/baud_gen.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/mmio_basic/chu_gpi.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/mmio_basic/chu_gpo.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/sys/bridge/chu_mcs_bridge.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/chu_mmio_controller.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/mmio_basic/chu_timer.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/uart/chu_uart.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/fifo/fifo.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/fifo/fifo_ctrl.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/sys/subsys/mmio_sys_vanilla.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/fifo/reg_file.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/uart/uart.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/uart/uart_rx.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/mmio/uart/uart_tx.sv" \
+"../../../../FPro.srcs/sources_1/imports/hdl/sys/top/mcs_top_vanilla.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

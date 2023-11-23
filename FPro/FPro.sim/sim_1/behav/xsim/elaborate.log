@@ -1,0 +1,221 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /media/aleo/data/Xilinx/Vivado/2021.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L microblaze_v11_0_8 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_20 -L blk_mem_gen_v8_4_5 -L iomodule_v3_1_7 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mcs_top_vanilla_behav xil_defaultlib.mcs_top_vanilla xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v:115]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v:163]
+WARNING: [VRFC 10-5021] port 'interrupt_ack' is not connected on this instance [/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v:246]
+WARNING: [VRFC 10-5021] port 'interconnect_aresetn' is not connected on this instance [/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v:272]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/sim/cpu.v" Line 55. Module cpu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v" Line 9. Module bd_3914 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_6/sim/bd_3914_lmb_bram_I_0.v" Line 55. Module bd_3914_lmb_bram_I_0 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1951. Module blk_mem_gen_v8_4_5_mem_module(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_BYTE_SIZE=8,C_USE_BRAM_BLOCK=1,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=15,C_HAS_RSTB=1,C_INITB_VAL="0",C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=15,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1563. Module blk_mem_gen_v8_4_5_output_stage(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_HAS_RST=1,C_ADDRB_WIDTH=15,NUM_STAGES=0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1563. Module blk_mem_gen_v8_4_5_output_stage(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_HAS_RST=1,C_ADDRB_WIDTH=15,NUM_STAGES=0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1859. Module blk_mem_gen_v8_4_5_softecc_output_reg_stage(C_ADDRB_WIDTH=15) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/sim/cpu.v" Line 55. Module cpu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v" Line 9. Module bd_3914 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_6/sim/bd_3914_lmb_bram_I_0.v" Line 55. Module bd_3914_lmb_bram_I_0 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1951. Module blk_mem_gen_v8_4_5_mem_module(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_BYTE_SIZE=8,C_USE_BRAM_BLOCK=1,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=15,C_HAS_RSTB=1,C_INITB_VAL="0",C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=15,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 3412. Module blk_mem_gen_v8_4_5(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_ELABORATION_DIR="./",C_USE_BRAM_BLOCK=1,C_ENABLE_32BIT_ADDRESS=1,C_AXI_TYPE=1,C_BYTE_SIZE=8,C_PRIM_TYPE=1,C_INIT_FILE_NAME="no_coe_file_loaded",C_INIT_FILE="bd_3914_lmb_bram_I_0.mem",C_HAS_RSTA=1,C_USE_BYTE_WEA=1,C_WEA_WIDTH=4,C_WRITE_DEPTH_A=32768,C_READ_DEPTH_A=32768,C_ADDRA_WIDTH=32,C_HAS_RSTB=1,C_INITB_VAL="0",C_USE_BYTE_WEB=1,C_WEB_WIDTH=4,C_WRITE_DEPTH_B=32768,C_READ_DEPTH_B=32768,C_ADDRB_WIDTH=32,C_SIM_COLLISION_CHECK="ALL",C_COMMON_CLK=0,C_EN_SAFETY_CKT=1,C_COUNT_36K_BRAM="32",C_COUNT_18K_BRAM="0",C_EST_POWER_SUMMARY="Estimated_Power_for_IP_____:_____20.388_mW") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1563. Module blk_mem_gen_v8_4_5_output_stage(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_HAS_RST=1,C_ADDRB_WIDTH=15,NUM_STAGES=0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1563. Module blk_mem_gen_v8_4_5_output_stage(C_FAMILY="artix7",C_XDEVICEFAMILY="artix7",C_HAS_RST=1,C_ADDRB_WIDTH=15,NUM_STAGES=0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2021.2/sw/continuous/8687/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v" Line 1859. Module blk_mem_gen_v8_4_5_softecc_output_reg_stage(C_ADDRB_WIDTH=15) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/media/aleo/data/projects/prototyping/FPro/FPro.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package unisim.vcomponents
+Compiling package lmb_bram_if_cntlr_v4_0_20.lmb_bram_if_funcs
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package iomodule_v3_1_7.iomodule_funcs
+Compiling package iomodule_v3_1_7.iomodule_vote_pkg
+Compiling package microblaze_v11_0_8.microblaze_types
+Compiling package microblaze_v11_0_8.microblaze_isa
+Compiling package ieee.std_logic_signed
+Compiling package microblaze_v11_0_8.mmu_types
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture fds_v of entity unisim.FDS [fds_default]
+Compiling architecture imp of entity lmb_v10_v3_0_11.lmb_v10 [\lmb_v10(c_lmb_num_slaves=2)\]
+Compiling architecture bd_3914_dlmb_0_arch of entity xil_defaultlib.bd_3914_dlmb_0 [bd_3914_dlmb_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_20.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_20.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_20.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture bd_3914_dlmb_cntlr_0_arch of entity xil_defaultlib.bd_3914_dlmb_cntlr_0 [bd_3914_dlmb_cntlr_0_default]
+Compiling architecture imp of entity lmb_v10_v3_0_11.lmb_v10 [\lmb_v10(c_lmb_num_slaves=1)\]
+Compiling architecture bd_3914_ilmb_0_arch of entity xil_defaultlib.bd_3914_ilmb_0 [bd_3914_ilmb_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_20.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_20.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_20.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture bd_3914_ilmb_cntlr_0_arch of entity xil_defaultlib.bd_3914_ilmb_cntlr_0 [bd_3914_ilmb_cntlr_0_default]
+Compiling architecture imp of entity iomodule_v3_1_7.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity iomodule_v3_1_7.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity iomodule_v3_1_7.UART_Core [\UART_Core(c_target=non_rtl,c_vo...]
+Compiling architecture imp of entity iomodule_v3_1_7.UART [\UART(c_target=non_rtl,c_vote_si...]
+Compiling architecture vhdl_rtl of entity iomodule_v3_1_7.FIT_Module [\FIT_Module(c_target=non_rtl,c_v...]
+Compiling architecture imp of entity iomodule_v3_1_7.PIT_Module [\PIT_Module(c_target=non_rtl,c_v...]
+Compiling architecture imp of entity iomodule_v3_1_7.GPO_Module [\GPO_Module(c_vote_size=32,c_use...]
+Compiling architecture imp of entity iomodule_v3_1_7.GPI_Module [\GPI_Module(c_use_gpi=0,c_gpi_si...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture imp of entity iomodule_v3_1_7.MB_FDR [\MB_FDR(c_target=non_rtl)\]
+Compiling architecture imp of entity iomodule_v3_1_7.intr_ctrl [\intr_ctrl(c_target=non_rtl,c_vo...]
+Compiling architecture imp of entity iomodule_v3_1_7.Iomodule_core [\Iomodule_core(c_target=non_rtl,...]
+Compiling architecture imp of entity iomodule_v3_1_7.iomodule [\iomodule(c_family="artix7",c_hi...]
+Compiling architecture bd_3914_iomodule_0_0_arch of entity xil_defaultlib.bd_3914_iomodule_0_0 [bd_3914_iomodule_0_0_default]
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.bd_3914_lmb_bram_I_0
+Compiling architecture and2b1l_v of entity unisim.AND2B1L [and2b1l_default]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_AND2B1L [\MB_AND2B1L(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_8.interrupt_mode_converter [\interrupt_mode_converter(c_edge...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_FDRE [\MB_FDRE(c_target=artix7)\]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_MUXCY_XORCY [\MB_MUXCY_XORCY(c_target=artix7)...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_MUXF7 [\MB_MUXF7(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_FDR [\MB_FDR(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_8.PC_Module_gti [\PC_Module_gti(c_data_size=32,c_...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000001111...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_FDS [\MB_FDS(c_target=artix7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000111111110000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture imp of entity microblaze_v11_0_8.PreFetch_Buffer_gti [\PreFetch_Buffer_gti(c_instr_siz...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_MUXCY [\MB_MUXCY(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_8.carry_and [\carry_and(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_8.jump_logic [\jump_logic(c_instr_size=32,c_ta...]
+Compiling architecture imp of entity microblaze_v11_0_8.carry_or [\carry_or(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_8.Decode_gti [\Decode_gti(c_data_size=32,c_ins...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0011110001011010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture imp of entity microblaze_v11_0_8.Div_unit_gti [\Div_unit_gti(c_target=artix7,c_...]
+Compiling architecture ram32m_v of entity unisim.RAM32M [ram32m_default]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_RAM32M [\MB_RAM32M(c_target=artix7,c_use...]
+Compiling architecture imp of entity microblaze_v11_0_8.Register_File_gti [\Register_File_gti(c_data_size=3...]
+Compiling architecture imp of entity microblaze_v11_0_8.Operand_Select_gti [\Operand_Select_gti(c_data_size=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011000000111101010...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_8.ALU_Bit [\ALU_Bit(c_target=artix7,c_allow...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01100000011110101010...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111101000001010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_MULT_AND [\MB_MULT_AND(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_8.ALU_Bit [\ALU_Bit(c_target=artix7,c_allow...]
+Compiling architecture imp of entity microblaze_v11_0_8.ALU [\ALU(c_data_size=32,c_allow_lut6...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=rtl,init="1100...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=rtl,init="1100...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=rtl,init="1100...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_MUXF7 [\MB_MUXF7(c_target=rtl)\]
+Compiling architecture imp of entity microblaze_v11_0_8.carry_equal [\carry_equal(c_target=rtl,size=8...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=rtl,init="0000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=rtl,init="0000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=rtl,init="0111...]
+Compiling architecture imp of entity microblaze_v11_0_8.count_leading_zeros [count_leading_zeros_default]
+Compiling architecture imp of entity microblaze_v11_0_8.Shift_Logic_Module_gti [\Shift_Logic_Module_gti(c_data_s...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,alumodereg=0...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_DSP48E1 [\MB_DSP48E1(c_target=artix7,acas...]
+Compiling architecture imp of entity microblaze_v11_0_8.dsp_module [\dsp_module(c_target=artix7,c_ab...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,carryinreg...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_DSP48E1 [\MB_DSP48E1(c_target=artix7,alum...]
+Compiling architecture imp of entity microblaze_v11_0_8.dsp_module [\dsp_module(c_target=artix7,c_ab...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,alumodereg=0...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_DSP48E1 [\MB_DSP48E1(c_target=artix7,acas...]
+Compiling architecture imp of entity microblaze_v11_0_8.dsp_module [\dsp_module(c_target=artix7,c_ab...]
+Compiling architecture imp of entity microblaze_v11_0_8.mul_unit [\mul_unit(c_data_size=32,c_targe...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_8.Barrel_Shifter_gti [\Barrel_Shifter_gti(c_data_size=...]
+Compiling architecture imp of entity microblaze_v11_0_8.WB_Mux_Bit [\WB_Mux_Bit(c_target=artix7,c_lu...]
+Compiling architecture imp of entity microblaze_v11_0_8.WB_Mux [\WB_Mux(c_data_size=32,c_daddr_s...]
+Compiling architecture imp of entity microblaze_v11_0_8.Zero_Detect_gti [\Zero_Detect_gti(c_data_size=32,...]
+Compiling architecture imp of entity microblaze_v11_0_8.Byte_Doublet_Handle_gti [\Byte_Doublet_Handle_gti(c_data_...]
+Compiling architecture imp of entity microblaze_v11_0_8.Data_Flow_Logic [\Data_Flow_Logic(c_data_size=32,...]
+Compiling architecture msr_reg of entity microblaze_v11_0_8.msr_reg_gti [\msr_reg_gti(c_data_size=32,c_ta...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111110000000011...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_8.mux_bus [\mux_bus(c_target=artix7,c_allow...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100101101001011010...]
+Compiling architecture imp of entity microblaze_v11_0_8.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_8.exception_registers_gti [\exception_registers_gti(c_data_...]
+Compiling architecture imp of entity microblaze_v11_0_8.Fpu [\Fpu(c_data_size=32,c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_8.PVR [\PVR(c_data_size=32,c_daddr_size...]
+Compiling architecture imp of entity microblaze_v11_0_8.Data_Flow_gti [\Data_Flow_gti(c_data_size=32,c_...]
+Compiling architecture imp of entity microblaze_v11_0_8.read_data_mux [\read_data_mux(c_data_size=32,c_...]
+Compiling architecture imp of entity microblaze_v11_0_8.instr_mux [\instr_mux(c_instr_size=32,c_tar...]
+Compiling architecture imp of entity microblaze_v11_0_8.MMU [\MMU(c_data_size=32,c_daddr_size...]
+Compiling architecture imp of entity microblaze_v11_0_8.MicroBlaze_GTi [\MicroBlaze_GTi(c_num_sync_ff_cl...]
+Compiling architecture imp of entity microblaze_v11_0_8.mb_sync_bit [mb_sync_bit_default]
+Compiling architecture imp of entity microblaze_v11_0_8.MicroBlaze_Core [\MicroBlaze_Core(c_freq=10000000...]
+Compiling architecture imp of entity microblaze_v11_0_8.MicroBlaze [\MicroBlaze(c_freq=100000000,c_e...]
+Compiling architecture bd_3914_microblaze_i_0_arch of entity xil_defaultlib.bd_3914_microblaze_I_0 [bd_3914_microblaze_i_0_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.proc_sys_reset [\proc_sys_reset(c_family="artix7...]
+Compiling architecture bd_3914_rst_0_0_arch of entity xil_defaultlib.bd_3914_rst_0_0 [bd_3914_rst_0_0_default]
+Compiling module xil_defaultlib.bd_3914
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.chu_mcs_bridge
+Compiling module xil_defaultlib.chu_mmio_controller
+Compiling module xil_defaultlib.chu_timer
+Compiling module xil_defaultlib.baud_gen
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.fifo_ctrl(ADDR_WIDTH=8)
+Compiling module xil_defaultlib.reg_file(ADDR_WIDTH=8)
+Compiling module xil_defaultlib.fifo(ADDR_WIDTH=8)
+Compiling module xil_defaultlib.uart(FIFO_W=8)
+Compiling module xil_defaultlib.chu_uart
+Compiling module xil_defaultlib.chu_gpo(W=16)
+Compiling module xil_defaultlib.chu_gpi(W=16)
+Compiling module xil_defaultlib.mmio_sys_vanilla(N_SW=16,N_LED=1...
+Compiling module xil_defaultlib.mcs_top_vanilla
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mcs_top_vanilla_behav

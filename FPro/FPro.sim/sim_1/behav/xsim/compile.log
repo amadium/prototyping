@@ -1,0 +1,53 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_6/sim/bd_3914_lmb_bram_I_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3914_lmb_bram_I_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3914
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/sim/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/uart/baud_gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/mmio_basic/chu_gpi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chu_gpi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/mmio_basic/chu_gpo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chu_gpo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/sys/bridge/chu_mcs_bridge.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chu_mcs_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/chu_mmio_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chu_mmio_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/mmio_basic/chu_timer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chu_timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/uart/chu_uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chu_uart
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/fifo/fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/fifo/fifo_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/sys/subsys/mmio_sys_vanilla.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmio_sys_vanilla
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/mmio_support/fifo/reg_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/uart/uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2458] undeclared symbol rx_done_tick, assumed default net type wire [/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/uart/uart.sv:31]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/uart/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/mmio/uart/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/aleo/data/projects/prototyping/FPro/FPro.srcs/sources_1/imports/hdl/sys/top/mcs_top_vanilla.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mcs_top_vanilla
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/aleo/data/projects/prototyping/FPro/FPro.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_0/sim/bd_3914_microblaze_I_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_microblaze_I_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_1/sim/bd_3914_rst_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_rst_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_2/sim/bd_3914_ilmb_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_ilmb_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_3/sim/bd_3914_dlmb_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_dlmb_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_4/sim/bd_3914_dlmb_cntlr_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_dlmb_cntlr_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_5/sim/bd_3914_ilmb_cntlr_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_ilmb_cntlr_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/aleo/data/projects/prototyping/FPro/FPro.gen/sources_1/ip/cpu/bd_0/ip/ip_7/sim/bd_3914_iomodule_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_iomodule_0_0'
